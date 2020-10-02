@@ -83,7 +83,7 @@
 #define KEY_F23       0xFA
 #define KEY_F24       0xFB
 
-
+// The required keys to be used are associated.
 //  Low level key report: up to 6 keys and shift, ctrl etc at once
 typedef struct
 {
@@ -111,3 +111,4 @@ extern Keyboard_ Keyboard;
 
 #endif
 #endif
+
